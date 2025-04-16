@@ -1,0 +1,46 @@
+Input		 					Stack						Output			
+
+K + L - M*N + (O^P) * W/U/V * T + Q		0								0
++L - M*N + (O^P) * W/U/V * T + Q		0								K
+L - M*N + (O^P) * W/U/V * T + Q			+								K
+-M*N + (O^P) * W/U/V * T + Q			+								KL
+M*N + (O^P) * W/U/V * T + Q			-								KL+
+*N + (O^P) * W/U/V * T + Q			-								KL+M
+N + (O^P) * W/U/V * T + Q			-*								KL+M
++ (O^P) * W/U/V * T + Q				-*								KL+MN
+(O^P) * W/U/V * T + Q				-+								KL+MN*
+(O^P) * W/U/V * T + Q				+								KL+MN*-
+O^P) * W/U/V * T + Q				+(								KL+MN*-
+^P) * W/U/V * T + Q				+(								KL+MN*-O
+P) * W/U/V * T + Q				+(^								KL+MN*-O
+) * W/U/V * T + Q				+(^								KL+MN*-OP
+* W/U/V * T + Q					+								KL+MN*-OP^
+W/U/V * T + Q					+*								KL+MN*-OP^
+/U/V * T + Q					+*								KL+MN*-OP^W
+U/V * T + Q					+/								KL+MN*-OP^W*
+/V * T + Q					+/								KL+MN*-OP^W*U
+V * T + Q					+/								KL+MN*-OP^W*U/
+ * T + Q					+/								KL+MN*-OP^W*U/V
+T+Q						+*								KL+MN*-OP^W*U/V/
++Q						+*								KL+MN*-OP^W*U/V/T
+Q						+								KL+MN*-OP^W*U/V/T*+
+0						+								KL+MN*-OP^W*U/V/T*+Q+	
+														
+		
+
+						
+						
+
+	
+
+								
+							
+						
+
+
+
+
+
+
+
+
